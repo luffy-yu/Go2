@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRoot>
+	<TestCase ID="1" desp="Line在凸多边形边界中裁剪显示" type="AccuracyTest" complex="1,1,1,0,0,0">
+		<Entity Type="Line">
+			<StartPoint>67, 565</StartPoint>
+			<EndPoint>731, 80</EndPoint>
+		</Entity>
+	    <Entity Type="Line">
+			<StartPoint>86, 433</StartPoint>
+			<EndPoint>712, 350</EndPoint>
+		</Entity>
+				<Entity Type="Line">
+			<StartPoint>472, 584</StartPoint>
+			<EndPoint>120, 386</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>0, 600</StartPoint>
+			<EndPoint>400, 600</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>646, 0</StartPoint>
+			<EndPoint>646, 386</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>500, 0</StartPoint>
+			<EndPoint>500, 800</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>300, 110</StartPoint>
+			<EndPoint>300, 350</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>800, 12</StartPoint>
+			<EndPoint>1200, 400</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>550, 246</StartPoint>
+			<EndPoint>700, 246</EndPoint>
+		</Entity>
+	    <Entity Type="Line">
+			<StartPoint>120, 386</StartPoint>
+			<EndPoint>300, 386</EndPoint>
+		</Entity>
+		<Boundary Type="Concave Polygon">
+			<Vertex>120, 386</Vertex>
+			<Vertex>472, 584</Vertex>
+			<Vertex>646, 246</Vertex>
+			<Vertex>424, 14</Vertex>
+			<Vertex>171, 76</Vertex>
+			<Vertex>120, 386</Vertex>
+		</Boundary>
+	</TestCase>
+	<TestCase ID="2" desp="Circle在凸多边形边界中裁剪显示" type="AccuracyTest" complex="1,1,1,0,0,0">
+		<Entity Type="Circle">
+			<CenterPoint>112, 597</CenterPoint>
+			<Radius>100</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>809, 465</CenterPoint>
+			<Radius>100</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>425, 275</CenterPoint>
+			<Radius>209</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>700, 600</CenterPoint>
+			<Radius>200</Radius>
+		</Entity>
+	    <Entity Type="Circle">
+			<CenterPoint>300, 500</CenterPoint>
+			<Radius>40</Radius>
+		</Entity>
+	    <Entity Type="Circle">
+			<CenterPoint>400, 500</CenterPoint>
+			<Radius>390</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>450, 500</CenterPoint>
+			<Radius>100</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>275, 300</CenterPoint>
+			<Radius>25</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>400, 250</CenterPoint>
+			<Radius>50</Radius>
+		</Entity>
+		<Boundary Type="Concave Polygon">
+			<Vertex>212, 597</Vertex>
+			<Vertex>344, 784</Vertex>
+			<Vertex>450, 600</Vertex>
+			<Vertex>700, 700</Vertex>
+			<Vertex>500, 300</Vertex>
+			<Vertex>250, 300</Vertex>
+			<Vertex>212, 597</Vertex>
+		</Boundary>
+	</TestCase>
+	<TestCase ID="3" desp="Line在凹多边形边界中裁剪显示" type="AccuracyTest" complex="1,1,1,0,0,0">
+		<Entity Type="Line">
+			<StartPoint>300,300</StartPoint>
+			<EndPoint>300, 500</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>360,820</StartPoint>
+			<EndPoint>700,650</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>350,350</StartPoint>
+			<EndPoint>450,250</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>550,500</StartPoint>
+			<EndPoint>550,800</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>700,300</StartPoint>
+			<EndPoint>575,800</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>700,300</StartPoint>
+			<EndPoint>500,300</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>500,200</StartPoint>
+			<EndPoint>700,300</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>400,250</StartPoint>
+			<EndPoint>400,150</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>530,150</StartPoint>
+			<EndPoint>200, 700</EndPoint>
+		</Entity>
+	    <Entity Type="Line">
+			<StartPoint>400, 600</StartPoint>
+			<EndPoint>500,400</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>500, 500</StartPoint>
+			<EndPoint>600,500</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>500, 700</StartPoint>
+			<EndPoint>700,700</EndPoint>
+		</Entity>
+		<Boundary Type="Concave Polygon">
+			<Vertex>500, 200</Vertex>
+			<Vertex>300, 400</Vertex>
+			<Vertex>400, 800</Vertex>
+			<Vertex>550, 500</Vertex>
+			<Vertex>600, 700</Vertex>
+			<Vertex>700, 300</Vertex>
+			<Vertex>500, 200</Vertex>
+		</Boundary>
+	</TestCase>
+	<TestCase ID="4" desp="Circle在凹多边形边界中裁剪显示" type="AccuracyTest" complex="1,1,1,0,0,0">
+		<Entity Type="Circle">
+			<CenterPoint>112, 597</CenterPoint>
+			<Radius>100</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>809, 465</CenterPoint>
+			<Radius>100</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>425, 275</CenterPoint>
+			<Radius>209</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>700, 600</CenterPoint>
+			<Radius>200</Radius>
+		</Entity>
+	    <Entity Type="Circle">
+			<CenterPoint>300, 500</CenterPoint>
+			<Radius>40</Radius>
+		</Entity>
+	    <Entity Type="Circle">
+			<CenterPoint>400, 500</CenterPoint>
+			<Radius>390</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>450, 500</CenterPoint>
+			<Radius>100</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>275, 300</CenterPoint>
+			<Radius>25</Radius>
+		</Entity>
+		<Entity Type="Circle">
+			<CenterPoint>400, 250</CenterPoint>
+			<Radius>50</Radius>
+		</Entity>
+	    <Entity Type="Circle">
+			<CenterPoint>500, 600</CenterPoint>
+			<Radius>40</Radius>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>300, 300</StartPoint>
+			<EndPoint>300,400</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>67, 565</StartPoint>
+			<EndPoint>731, 80</EndPoint>
+		</Entity>
+	    <Entity Type="Line">
+			<StartPoint>86, 433</StartPoint>
+			<EndPoint>712, 350</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>472, 584</StartPoint>
+			<EndPoint>120, 386</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>0, 600</StartPoint>
+			<EndPoint>400, 600</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>646, 0</StartPoint>
+			<EndPoint>646, 386</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>500, 0</StartPoint>
+			<EndPoint>500, 800</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>300, 110</StartPoint>
+			<EndPoint>300, 350</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>800, 12</StartPoint>
+			<EndPoint>1200, 400</EndPoint>
+		</Entity>
+		<Entity Type="Line">
+			<StartPoint>550, 246</StartPoint>
+			<EndPoint>700, 246</EndPoint>
+		</Entity>
+	    <Entity Type="Line">
+			<StartPoint>120, 386</StartPoint>
+			<EndPoint>300, 386</EndPoint>
+		</Entity>
+		<Boundary Type="Concave Polygon">
+			<Vertex>212, 597</Vertex>
+			<Vertex>544, 784</Vertex>
+			<Vertex>709, 465</Vertex>
+			<Vertex>500, 300</Vertex>
+			<Vertex>200, 300</Vertex>
+			<Vertex>212, 597</Vertex>
+		</Boundary>
+	</TestCase>
+</TestRoot>
