@@ -1,24 +1,24 @@
 # Go2
 
-## Cutting and Displaying of Intersecton of Vector Geomety, Like Line and Circle, Within Non-self-intersected polygon
+## Cutting and Displaying of Intersecton of Vector Geomety, Like Line and Circle, within Non-self-intersected Polygon
 
-矢量图形（line和circle）在非自交多边形边界中的裁剪显示
+## 矢量图形（line和circle）在非自交多边形边界中的裁剪显示
 
 ### `第四届“中国软件杯”大学生软件设计大赛`作品
 
-for `The 4th CHINA SOFTWARE CUP University Students Software Design Competition`
+### for `The 4th CHINA SOFTWARE CUP University Students Software Design Competition`
 
-* Design Document 设计文档
+## Design Document 设计文档
 
-[](doc/Go2DesignGuide.pdf)
+![](doc/Go2DesignGuide.pdf)
 
-* Demo Video 演示视频
+## Demo Video 演示视频
 
-[](demo/Go2.swf)
+![](demo/Go2.swf)
 
-* Dev Env Setup 开发环境搭建
+## Dev Env Setup 开发环境搭建
 
-[](env/QtDevGuide.pdf)
+![](env/QtDevGuide.pdf)
 
 ## Screen Shots 运行截图
 
@@ -66,7 +66,7 @@ for `The 4th CHINA SOFTWARE CUP University Students Software Design Competition`
 
 ![附加测试4-2](test/附加测试/附加测试4-2.jpg)
 
-* Origin ReadMe
+## Origin ReadMe
 
 ```
 作品名:Go2 
